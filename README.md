@@ -117,6 +117,14 @@ This workshop includes hands-on exercises using AI agents powered by:
 
 ---
 
+---
+
+### 9️⃣ APM (Agent Package Manager) installed
+
+- Installation steps for Windows / Linux / macOS here: https://microsoft.github.io/apm/
+
+---
+
 ## ⚠️ Important Requirements
 
 ### System Requirements
