@@ -1,0 +1,11 @@
+name: rv-pw-workspace
+version: 0.1.0
+description: Short description
+author: Razvan Vancea
+dependencies:
+  apm:
+    - git: ssh://git@github.com/razvanvancea/apm-ai-registry.git
+      ref: main
+  mcp:
+    - com.atlassian/atlassian-mcp-server
+scripts: {}
