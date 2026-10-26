@@ -13,7 +13,8 @@
     "show:report": "npx playwright show-report",
     "test:ui": "npx playwright test --ui",
     "test:smoke": "npx playwright test -g '@smoke'",
-    "test:ten:times": "npx playwright test -g '@wip' --repeat-each=10",
+    "test:ten:times": "npx playwright test --repeat-each=10",
+    "test:shuffle": "npx playwright test --shuffle",
     "format": "npx oxfmt",
     "format:check": "npx oxfmt --check",
     "lint": "tsc --noEmit && eslint tests/**",
@@ -26,11 +27,11 @@
   "type": "commonjs",
   "devDependencies": {
     "@faker-js/faker": "^10.6.0",
-    "@playwright/test": "^1.63.0",
+    "@playwright/test": "^1.64.1",
     "@types/node": "^26.6.2",
     "cross-env": "^10.1.0",
     "eslint": "^9.39.2",
-    "oxfmt": "^0.70.0",
+    "oxfmt": "^0.74.0",
     "typescript-eslint": "^8.70.1"
   }
 }
