@@ -2,6 +2,7 @@ Your project is up to date - NO NEED to run the 'git pull' command :)
 
 workshop exercise solutions: https://tinyurl.com/as26-sol
 website demo app: https://tai-shop.razvanvancea.ro/
+APM AI Registry: https://github.com/razvanvancea/apm-ai-registry
 
 == Documentation ==
 Playwright docs: https://playwright.dev/docs/intro
