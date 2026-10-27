@@ -14,6 +14,8 @@ test.describe('Optional fundamentals test suite', () => {
    * OPTIONAL Exercise 6: run this test in debug mode and use Playwright Inspector to analyze the test execution, step by step
    *
    * OPTIONAL Exercise 7: run only the test that tries to login with invalid credentials, 10 times in a row, from CLI
+   *
+   * OPTIONAL Exercise 8: run the entire test suite in shuffle mode, to make sure there is no test chaining effect
    * */
 
   // test('ex 4-7: the user should see an error message when trying to authenticate using invalid credentials', async ({
