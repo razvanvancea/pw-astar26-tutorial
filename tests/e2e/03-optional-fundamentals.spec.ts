@@ -18,7 +18,7 @@ test.describe('Optional fundamentals test suite', () => {
    * OPTIONAL Exercise 8: run the entire test suite in shuffle mode, to make sure there is no test chaining effect
    * */
 
-  // test('ex 4-7: the user should see an error message when trying to authenticate using invalid credentials', async ({
+  // test('ex 4-8: the user should see an error message when trying to authenticate using invalid credentials', async ({
   //   page,loginPage,
   // }) => {
   // });
