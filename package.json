@@ -20,7 +20,7 @@
     "lint": "tsc --noEmit && eslint tests/**",
     "codegen": "npx playwright codegen https://tai-shop.razvanvancea.ro",
     "test:dev:env": "npx cross-env BASE_URL=https://somedevelopmentenv.com playwright test",
-    "apm:install": "apm install --target copilot"
+    "apm:install": "apm install --target copilot --legacy-skill-paths"
   },
   "keywords": [],
   "author": "Razvan Vancea",
