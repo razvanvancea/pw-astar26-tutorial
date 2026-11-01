@@ -1,0 +1,25 @@
+lockfile_version: '1'
+generated_at: '2026-11-01T22:15:55.830359+00:00'
+apm_version: 0.21.0
+dependencies:
+- repo_url: razvanvancea/apm-ai-registry
+  host: github.com
+  resolved_commit: a644687050a5aadf40d5713c310ca138e1c04a73
+  resolved_ref: main
+  package_type: apm_package
+  deployed_files:
+  - .agents/skills/trace-analyzer
+  - .agents/skills/trace-analyzer/SKILL.md
+  - .github/agents/readme-specialist.agent.md
+  - .github/skills/trace-analyzer
+  - .github/skills/trace-analyzer/SKILL.md
+  deployed_file_hashes:
+    .agents/skills/trace-analyzer/SKILL.md: sha256:573e982bf0a9a0c55d965035defda8dc80d18adeb2f8cc9c50809c672e020fa9
+    .github/agents/readme-specialist.agent.md: sha256:c43a079f9be09a30d8d1f5ef705448025b7bb37591554b28a14ad893fe846553
+    .github/skills/trace-analyzer/SKILL.md: sha256:573e982bf0a9a0c55d965035defda8dc80d18adeb2f8cc9c50809c672e020fa9
+  content_hash: sha256:08f8229a44e9e12ff1faa66b1aa2b396412cb5d6e8f8a63cce05aa760ab74a19
+mcp_servers:
+- com.atlassian/atlassian-mcp-server
+mcp_configs:
+  com.atlassian/atlassian-mcp-server:
+    name: com.atlassian/atlassian-mcp-server
