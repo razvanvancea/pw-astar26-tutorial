@@ -1,10 +1,10 @@
-Your project is up to date - NO NEED to run the 'git pull' command :)
+Congrats! Your project is up to date - NO NEED to run the 'git pull' command :)
 
 workshop exercise solutions: https://tinyurl.com/as26-sol
 website demo app: https://tai-shop.razvanvancea.ro/
 APM AI Registry: https://github.com/razvanvancea/apm-ai-registry
 
-== basic commands ==
+== CLI basic commands ==
 1. recording a new test: npx playwright codegen https://tai-shop.razvanvancea.ro
 2. running tests: npx playwright test
 --headed
@@ -14,46 +14,28 @@ APM AI Registry: https://github.com/razvanvancea/apm-ai-registry
 --repeat-each=10
 --shuffle
 -g "@smoke"
+Note: All the relevant PW CLI commands are stored in package.json file. You can invoke them using 'npm run' + script name (e.g. npm run test:headed)
 
-
-
-== Documentation ==
-Playwright docs: https://playwright.dev/docs/intro
-
-Trace viewer: https://trace.playwright.dev/
-
-Playwright MCP Server: https://github.com/microsoft/playwright-mcp
-
-awesome-copilot (playwright-ts-custom-instructions): https://github.com/github/awesome-copilot/blob/main/instructions/playwright-typescript.instructions.md
-
-Playwright agents: https://playwright.dev/docs/test-agents
-
-FakerJS - realistic random data generator: https://fakerjs.dev/guide/
-
-Custom agents: https://awesome-copilot.github.com/learning-hub/building-custom-agents/
-
-Skills docs: https://awesome-copilot.github.com/learning-hub/what-are-agents-skills-instructions/
-
-Skills Examples Repository: https://www.skills.sh/
-
-GitHub Copilot Terminology: https://awesome-copilot.github.com/learning-hub/github-copilot-terminology-glossary/
-
-LLM tokenizer simulator: https://platform.openai.com/tokenizer
-
-AI templates for skills and agents: https://www.aitmpl.com/agents/
-
-AI custom agent docs - writing a readme-specialist: https://docs.github.com/en/copilot/tutorials/customization-library/custom-agents/your-first-custom-agent
-
-API: JSON to Zod converter - https://transform.tools/json-to-zod
-
-== Useful CLI commands ==
-All the relevant PW CLI commands are stored in package.json file. You can invoke them using 'npm run' + script name (e.g. npm run test:headed)
-CLI command for generating project structure from a plain folder: npm init playwright@latest
-
-CLI command for starting the codegen, open the browser and automatically record tests based on your browser navigation: npx playwright codegen https://tai-shop.razvanvancea.ro
 
 === prompts ===
 1. Refactor all the existing tests to follow the established POM pattern, reusing the existing page fixtures and all conventions defined in `copilot-instructions.md`
 2. Create a concise Playwright test plan for "https://tai-shop.razvanvancea.ro". Explore only enough to identify the 3 most important user flows, prioritize them using the `risk-based-prioritization` skill, and save a lightweight Markdown test plan. 
 3. Use Playwright MCP and implement the "Validate shipping details and place a sandbox order" from the generated `test-plan.md` as a single playwright test in 'place-order.spec.ts', following copilot-instructions.md and reusing the existing POMs and page fixtures.
 4. /code-review for working tree in `place-order.spec.ts` file
+
+
+== References ==
+Playwright docs: https://playwright.dev/docs/intro
+Trace viewer: https://trace.playwright.dev/
+Playwright MCP Server: https://github.com/microsoft/playwright-mcp
+awesome-copilot (playwright-ts-custom-instructions): https://github.com/github/awesome-copilot/blob/main/instructions/playwright-typescript.instructions.md
+Playwright agents: https://playwright.dev/docs/test-agents
+FakerJS - realistic random data generator: https://fakerjs.dev/guide/
+Custom agents: https://awesome-copilot.github.com/learning-hub/building-custom-agents/
+Skills docs: https://awesome-copilot.github.com/learning-hub/what-are-agents-skills-instructions/
+Skills Examples Repository: https://www.skills.sh/
+GitHub Copilot Terminology: https://awesome-copilot.github.com/learning-hub/github-copilot-terminology-glossary/
+LLM tokenizer simulator: https://platform.openai.com/tokenizer
+AI templates for skills and agents: https://www.aitmpl.com/agents/
+AI custom agent docs - writing a readme-specialist: https://docs.github.com/en/copilot/tutorials/customization-library/custom-agents/your-first-custom-agent
+API: JSON to Zod converter - https://transform.tools/json-to-zod
