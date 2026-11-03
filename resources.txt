@@ -4,6 +4,19 @@ workshop exercise solutions: https://tinyurl.com/as26-sol
 website demo app: https://tai-shop.razvanvancea.ro/
 APM AI Registry: https://github.com/razvanvancea/apm-ai-registry
 
+== basic commands ==
+1. recording a new test: npx playwright codegen https://tai-shop.razvanvancea.ro
+2. running tests: npx playwright test
+--headed
+--ui
+--debug
+--workers=1
+--repeat-each=10
+--shuffle
+-g "@smoke"
+
+
+
 == Documentation ==
 Playwright docs: https://playwright.dev/docs/intro
 
