@@ -1,25 +1,18 @@
 import { test, expect } from '../../page-fixtures';
+import { faker } from '@faker-js/faker';
 
-test.describe('Optional fundamentals test suite', () => {
+test.describe('Account creation codegen test suite', () => {
   test.beforeEach(async ({ page }) => {
     await page.goto('/');
   });
 
   /**
-   * OPTIONAL Exercise 4: create a test that tries to login with invalid credentials and verify that the appropriate error message is displayed
-   * Hint: you can reuse existing test steps or create new ones using the codegen feature
-   *
-   * OPTIONAL Exercise 5: add a @smoke tag to this test and run only smoke tests from CLI
-   *
-   * OPTIONAL Exercise 6: run this test in debug mode and use Playwright Inspector to analyze the test execution, step by step
-   *
-   * OPTIONAL Exercise 7: run only the test that tries to login with invalid credentials, 10 times in a row, from CLI
-   *
-   * OPTIONAL Exercise 8: run the entire test suite in shuffle mode, to make sure there is no test chaining effect
-   * */
-
-  // test('ex 4-8: the user should see an error message when trying to authenticate using invalid credentials', async ({
-  //   page,loginPage,
-  // }) => {
-  // });
+   * Exercise 3A: use the codegen feature and record the test for creating an account
+   * Exercise 3B: refactor the test by removing unnecessary steps and add assertions to verify that the account was created successfully
+   * Exercise 3C: use faker library to generate random unique email address for each test run
+   * 3C Note: feel free to use the randomEmail constant to fill the email address. It creates a random email address using the faker library and can be used to ensure that each test run uses a unique email address
+   */
+  //   test('ex 3: the user should be able to create a new account', async ({ page }) => {
+  //     const randomEmail = faker.internet.email();
+  //   });
 });

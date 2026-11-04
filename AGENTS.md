@@ -2,7 +2,7 @@
 
 ## Project Overview
 
-Workshop repository ("Scalable Playwright Framework with AI") containing Playwright end-to-end tests written in TypeScript against the demo shop `https://tai-shop.razvanvancea.ro`. It uses the Page Object Model with custom fixtures, and ships Copilot agents/skills (installed via APM) to demonstrate AI-assisted test authoring.
+Workshop repository ("Scalable Playwright Framework with AI") containing Playwright end-to-end tests written in TypeScript against the demo shop `https://practicesoftwaretesting.com/`. It uses the Page Object Model with custom fixtures, and ships Copilot agents/skills (installed via APM) to demonstrate AI-assisted test authoring.
 
 - Stack: Node.js (LTS), `@playwright/test`, TypeScript (strict, CommonJS), ESLint + typescript-eslint, oxfmt, `@faker-js/faker`.
 - Only browser project: `Google Chrome` (`channel: 'chrome'`) — Chrome must be installed.
